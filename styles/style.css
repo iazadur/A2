@@ -107,12 +107,15 @@ height: 438px;
     font-size: 48px;
     line-height: 60px;
     color: #0A0826;
+    margin-bottom: 0;
 }
 
 .left-highlights p{
     font-size: 16px;
     color: #6C6C6C;
     font-weight: 400;
+    margin-bottom: 24px;
+    margin-top: 8px;
 }
 
 .right-highlights img{
@@ -120,4 +123,39 @@ height: 438px;
 }
 #button i{
     padding-left: 6px;
+}
+
+/*----------------------
+     Footer Styles 
+ ----------------------*/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 158px;
+}
+
+.footer-top-img img{
+    width: 483.87px;
+    height: 110px;
+}
+.social-links{
+    display: flex;
+    flex-direction: row;
+}
+.social-links i{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 7px;
+}
+.footer-down-copywrite{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
 }
