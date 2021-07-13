@@ -91,7 +91,9 @@ height: 438px;
     justify-content: space-between;
     height: auto;
     margin-top: 165px;
+    margin-bottom: 60px;
 }
+
 .left-highlights{
     width: 469px;
 }
@@ -157,4 +159,159 @@ height: 438px;
     font-size: 18px;
     font-weight: 400;
     color: #000;
+}
+/* Extra Noticias AFA sections styles */
+
+.extra{
+    border-top: 1px solid #999;
+}
+
+.noticias{
+    display: flex;
+    justify-content: space-between;
+}
+.extra h1{
+    color: #00BCD4;
+    font-size: 50px;
+}
+.blog-noticias{
+    width: 800px;
+    margin-right: 20px;
+}
+.blog-noticias p{
+    display: inline-block;
+    background-color: #00BCD4;
+    color: #fff;
+    padding: 2px 12px;
+}
+.blog-noticias h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+
+
+}
+.blog-noticias a{
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 25px;
+    background-color: hotpink;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+.blog-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog-footer i{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00BCD4;
+    background-color: #fff;
+    margin-top: 10px;
+    color: #00BCD4;
+    cursor: pointer;
+    
+}
+.blog-footer i:hover{
+    color: #fff;
+    background-color: #00BCD4;
+    transition: background-color 1s;
+}
+
+.blog-footer a:hover{
+    color: #fff;
+    background-color: #00BCD4;
+    transition: background-color 1s;
+}
+.blog-footer a{
+    color:#00BCD4;
+    border-radius: 25px;
+    padding: 10px 25px;
+    border: 1px solid #00BCD4;
+    background: #fff;
+}
+.blog-noticias img{
+    width: 100%;
+}
+.recent-blogs{
+    width: 300px;
+}
+
+.inner-recent-blog{
+    display: flex;
+    justify-content: space-between;
+}
+.inner-left-blog{
+    width: 40%;
+    margin-right: 10px;
+}
+.inner-left-blog img{
+    width: 80%;
+}
+.inner-right-blog{
+    width: 53%;
+}
+.inner-right-blog a{
+    text-decoration: none;
+    font-size: 11px;
+    color: #00BCD7;
+}
+.inner-right-blog h4 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    cursor: pointer;
+}
+.inner-right-blog h4:hover{
+    color: #00BCD4;
+
+}
+.inner-right-blog p{
+    font-size: 13px;
+    border-radius: 25px;
+    background-color: hotpink;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+/* ------------------------------
+    Extra DEFENDERS MEN section style
+----------------------------------- */
+
+.men{
+
+}
+.men h1{
+
+}
+.men h3{
+
+}
+.defenders{
+    display: flex;
+    justify-content: space-between;
+}
+.defender{
+    width: 330px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.9);
+    position: relative;
+}
+
+.defender img{
+    width: 100%;
+    
+}
+.inner-defender{
+    position: absolute;
 }
