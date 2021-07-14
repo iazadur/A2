@@ -288,7 +288,7 @@ height: 438px;
     Extra DEFENDERS MEN section style
 ----------------------------------- */
 
-.men{
+/* .men{
 
 }
 .men h1{
@@ -296,16 +296,17 @@ height: 438px;
 }
 .men h3{
 
-}
+} */
 .defenders{
     display: flex;
     justify-content: space-between;
 }
-.defender{
+.defender {
     width: 330px;
-    margin: 10px;
+    margin: 10px 10px 0 20px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.9);
     position: relative;
+    height: 280px;
 }
 
 .defender img{
@@ -314,4 +315,20 @@ height: 438px;
 }
 .inner-defender{
     position: absolute;
+    top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    top: 154px;
+    
+}
+.jursy-number {
+    background-color: #001489;
+    font-size: 50px;
+    font-weight: 300;
+    color: white;
+    margin-right: 20px;
+    padding:10px 20px 0 0;
+
 }

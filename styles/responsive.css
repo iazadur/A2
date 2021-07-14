@@ -102,6 +102,20 @@
         width: 100%;
     }
 
+    /* ------------------------------
+    Extra DEFENDERS MEN section style
+----------------------------------- */
+
+
+.defenders{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20px;
+}
+.defender{
+    width: 100%;
+    margin: 20px 10px;
+}
     
       /* -----------------------
         Responsive Footer
@@ -233,6 +247,18 @@
     }
     .recent-blogs{
         width: 100%;
+    }
+
+
+/* ------------------------------
+    Extra DEFENDERS MEN section style
+----------------------------------- */
+
+
+    .defenders{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 20px;
     }
 
     
