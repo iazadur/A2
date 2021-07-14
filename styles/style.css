@@ -57,7 +57,7 @@ nav{
 }
 #button{
     font-size: 16px;
-    padding: 10px 24px;
+    padding: 12px 25px;
     background: #E02C6D;
     color: white;
     border: 0;
@@ -84,13 +84,14 @@ nav{
 .top-header-left h1{
     font-size: 64px;
     color: white;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 80px;
     Width:485px;
+    margin-bottom: 25px;
 }
 .top-header-right img{
     width: 556.01px;
-height: 438px;
+    height: 438px;
 }
 
 
