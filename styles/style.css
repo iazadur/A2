@@ -30,7 +30,14 @@ nav{
 .left-nav a{
     text-decoration: none;
     color: white;
-    margin: 0px 18px;
+    margin: 0px 8px;
+    padding: 3px 10px;
+}
+.left-nav a:hover{
+    background-color: #00BCD4;
+    padding: 3px 10px;
+    border-radius: 3px;
+    transition: background-color 1s;
 }
 .right-nav{
     display: flex;
@@ -44,8 +51,15 @@ nav{
     color: white;
     border: 0;
     outline: 0;
+    border-radius: 5px;
 }
-
+#button:hover{
+    background:white ;
+    color: #E02C6D;
+    transform: scale(1.1);
+    transition: background 2s, transform 2s;
+    cursor: pointer;
+}
 /* Top Header Section Style */
 
 .top-header{
@@ -145,15 +159,26 @@ height: 438px;
     display: flex;
     flex-direction: row;
 }
+.social-links a{
+    text-decoration: none;
+    color: #00BCD4;
+    background-color: white;
+}
 .social-links i{
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    background: gainsboro;
+    /* background: gainsboro; */
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 7px;
+    border: 1px solid #00BCD4;
+}
+.social-links i:hover{
+    background-color: #00BCD4;
+    color: white;
+    transition: background-color 1.5s;
 }
 .footer-down-copywrite{
     font-size: 18px;
@@ -288,15 +313,20 @@ height: 438px;
     Extra DEFENDERS MEN section style
 ----------------------------------- */
 
-/* .men{
 
-}
 .men h1{
+    color: #00BCD4;
+    font-size: 50px;
+    margin-left: 10px;
 
 }
 .men h3{
+    color: goldenrod;
+    font-size: 30px;
+    margin-left: 10px;
 
-} */
+
+}
 .defenders{
     display: flex;
     justify-content: space-between;
@@ -328,7 +358,11 @@ height: 438px;
     font-size: 50px;
     font-weight: 300;
     color: white;
-    margin-right: 20px;
-    padding:10px 20px 0 0;
+    padding:10px 20px 0;
 
+}
+.name{
+    background-color:#00BCD4;
+    padding: 2px 19px;
+    border-radius: 2px;
 }
