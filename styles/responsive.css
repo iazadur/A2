@@ -60,7 +60,7 @@
         margin-top: 47px;
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 24px;
-        margin: 0 auto;
+        margin: 10px auto;
     }
     .player{
         width: 300px;
