@@ -12,7 +12,9 @@ body{
 }
 
 
-/* header section */
+/*==========================
+        header section
+ =========================== */
 
 
 header{
@@ -22,7 +24,9 @@ header{
 }
 
 
-/* Nav section Styles */
+/* ---------------------------------
+    Nav section Styles
+--------------------- ------------*/
 nav{
     
     padding-top: 42px;
@@ -155,7 +159,9 @@ Top Player Sections Styles
     padding-left: 6px;
 }
 
-/* Extra Noticias AFA sections styles */
+/* ----------------------------------
+Extra Noticias AFA sections styles
+------------------------------------- */
 
 .extra{
     border-top: 1px solid #999;
@@ -279,6 +285,8 @@ Top Player Sections Styles
     margin: 10px 0 0 0;
 }
 
+
+
 /* ------------------------------
     Extra DEFENDERS MEN section style
 ----------------------------------- */
@@ -367,7 +375,6 @@ Top Player Sections Styles
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    /* background: gainsboro; */
     display: flex;
     justify-content: center;
     align-items: center;
